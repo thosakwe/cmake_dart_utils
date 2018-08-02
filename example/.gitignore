@@ -1,0 +1,6 @@
+*.dylib
+*.so
+*.dll
+Makefile
+CMakeCache.txt
+cmake_install.cmake
