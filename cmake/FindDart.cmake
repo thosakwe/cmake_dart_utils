@@ -21,7 +21,7 @@
 
 find_program(_Dart_EXECUTABLE dart)
 
-if ("${_Dart_EXECUTABLE}" STREQUAL "Dart_EXECUTABLE-NOTFOUND")
+if ("${_Dart_EXECUTABLE}" STREQUAL "_Dart_EXECUTABLE-NOTFOUND")
   set(Dart_FOUND FALSE)
 else()
   get_filename_component(Dart_EXECUTABLE ${_Dart_EXECUTABLE} REALPATH)
