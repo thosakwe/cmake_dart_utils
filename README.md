@@ -32,14 +32,16 @@ find_package(Dart)
 
 The following variables will be set:
 
-`Dart_ROOT_DIR` - The Dart SDK root
-`Dart_EXECUTABLE` - The `dart` executable
-`Dart_INCLUDE_DIR` - The `include` directory within the SDK
-`Dart_LIBRARY` - The name of the `libdart` library
+* `Dart_ROOT_DIR` - The Dart SDK root
+* `Dart_EXECUTABLE` - The `dart` executable
+* `Dart_INCLUDE_DIR` - The `include` directory within the SDK
+* `Dart_LIBRARY` - The name of the `libdart` library
 
 The following macro is added as well:
 
-`add_dart_native_extension(NAME srcs...)`
+```cmake
+add_dart_native_extension(NAME srcs...)
+```
 
 This is a very convenient macro that automatically performs all
 necessary configuration to build a Dart native extension.
