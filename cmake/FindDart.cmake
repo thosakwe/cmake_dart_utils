@@ -37,7 +37,6 @@ if (Dart_FOUND)
     set(Dart_LIBRARY "${_Dart_BIN}\dart.lib")
   else()
     set(Dart_INCLUDE_DIR "${Dart_ROOT_DIR}/include")
-    set(Dart_LIBRARY dart)
   endif()
 endif()
 
