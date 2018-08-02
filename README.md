@@ -32,6 +32,7 @@ find_package(Dart)
 
 The following variables will be set:
 
+* `Dart_FOUND` - `TRUE` if Dart was found
 * `Dart_ROOT_DIR` - The Dart SDK root
 * `Dart_EXECUTABLE` - The `dart` executable
 * `Dart_INCLUDE_DIR` - The `include` directory within the SDK
