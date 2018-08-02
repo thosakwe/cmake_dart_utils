@@ -1,6 +1,6 @@
 # cmake_dart_utils
 Handy utilities for building Dart native extensions with CMake.
-Include macros for finding and linking against Dart with ease.
+Includes macros for finding and linking against Dart with ease.
 
 For a Dart-based solution, see
 [`package:build_native`](https://github.com/thosakwe/build_native)
