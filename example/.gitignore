@@ -4,3 +4,7 @@
 Makefile
 CMakeCache.txt
 cmake_install.cmake
+.packages
+*.lock
+.dart_tool
+cmake-build-debug
